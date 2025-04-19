@@ -1,0 +1,36 @@
+Question 1: 
+C) puter s
+
+Explanation: 
+`substring(3, 9)` returns the characters from index 3 (inclusive) to index 9 (exclusive). 
+In "computer science", these characters are "puter s".
+
+
+Question 2:
+C) s3 == s4
+
+Explanation: String literals (like "Hello") are stored in a special memory area called the String pool. 
+When two identical literals are used, Java reuses the same object. 
+Therefore, s3 and s4 refer to the same object, making s3 == s4 true. 
+However, using the new keyword creates distinct objects, 
+so s1 == s2 is false (though s1.equals(s2) would be true).
+
+
+Question 3:
+B) 12.25
+
+Explanation: `Math.abs(-3.5)` returns the absolute value of -3.5, which is 3.5. 
+Then `Math.pow(3.5, 2)` computes 3.5², which equals 12.25.
+
+
+Question 4:
+Answer: A) AP
+
+Explanation: `str.indexOf(" ")` finds the index of the first space, which is 2. 
+Then `str.substring(0, 2)` extracts characters from index 0 up to (but not including) index 2, which gives "AP".
+
+
+Question 5:
+ A) null is null
+
+Explanation: In Java, concatenating null with a string implicitly converts null to the string "null". So, s + " is null" becomes "null is null". Note that this does NOT throw a NullPointerException because no method is being called on s.

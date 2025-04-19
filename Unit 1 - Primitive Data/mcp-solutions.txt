@@ -1,13 +1,21 @@
-Question 1: A) 3.0
+Question 1: 
+A) 3.0
+
 Explanation: The division `a / b` is integer division (15 / 4 = 3), 
 which is then implicitly cast to a double. The result is 3.0, not 3.75, 
 because integer division truncates the decimal part.
 
-Question 2: A) 1 2
+
+Question 2: 
+A) 1 2
+
 Explanation: `x % y` is 7 % 3 = 1 (the remainder when 7 is divided by 3). 
 `x / y` is 7 / 3 = 2 (integer division). So the output is "1 2".
 
-Question 3: E) p = 5, q = 12, r = 16
+
+Question 3: 
+E) p = 5, q = 12, r = 16
+
 Explanation: 
 - Initially, p = 5.
 - `++p` increments p to 6 before using its value, so p = 6.
@@ -16,12 +24,18 @@ Explanation:
 - After the postfix decrement, p = 5.
 - Final values: p = 5, q = 12, r = 18.
 
-Question 4: A) 7
+
+Question 4: 
+A) 7
+
 Explanation:
 - 15.7 / 2.2 = 7.13636...
 - Casting to int truncates the decimal part, resulting in 7.
 
-Question 5: D) 2.857142...
+
+Question 5: 
+D) 2.857142...
+
 Explanation:
 - `a` is cast to a double before division, making this floating-point division.
 - (double) 20 / 7 = 20.0 / 7 = 2.857142...

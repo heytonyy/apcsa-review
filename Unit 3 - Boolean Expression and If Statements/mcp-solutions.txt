@@ -1,0 +1,40 @@
+Question 1:  
+C) Both positive<br>Both positive again
+
+Explanation: Since x = 5 and y = 10, both are greater than 0. 
+In the first nested if, both conditions are true, so "Both positive" is printed.
+The else part is skipped. Then, the condition `x > 0 && y > 0` is also true, so "Both positive again" is printed as well.
+
+
+Question 2:
+A) true
+
+Explanation: Let's evaluate step by step:
+1. `!(a && b)` = !(true && false) = !(false) = true
+2. `(a || !b)` = (true || !false) = (true || true) = true
+3. `result = true || true` = true
+
+
+Question 3:
+Answer: D) AC
+
+Explanation: 
+- `str1 == str3` is true because string literals with the same content refer to the same object in the string pool, so "A" is printed.
+- `str1 == str2` is false because `new String()` creates a new object in memory, so "B" is not printed.
+- `str1.equals(str2)` is true because `.equals()` compares the content of strings, not their references, so "C" is printed.
+
+
+Question 4:
+Answer: C) Neither
+
+Explanation: The number 7 is not divisible by 2 (7 % 2 = 1) and not divisible by 3 (7 % 3 = 1),
+so the code prints "Neither".
+
+
+Question 5:
+Answer: A) true
+
+Explanation: Boolean operators have precedence: `&&` has higher precedence than `||`. So:
+1. First, `b && c` = false && true = false
+2. Then, `a || false` = true || false = true
+3. Therefore, result = true
