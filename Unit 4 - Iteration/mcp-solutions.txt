@@ -1,0 +1,52 @@
+Question 1:
+Answer: A) x = 8, y = 6
+
+Explanation: Let's trace through the execution:
+- Initially: x = 0, y = 10
+- Iteration 1: x = 2, y = 9
+- Iteration 2: x = 4, y = 8
+- Iteration 3: x = 6, y = 7
+- Iteration 4: x = 8, y = 6
+- Check condition: is 8 < 6? No, so the loop terminates
+- Final values: x = 8, y = 6
+
+
+Question 2:
+Answer: E) All of the above
+
+Explanation: 
+- Option A: Loop runs for i = 0, 1, 2, 3, 4 (5 iterations)
+- Option B: Loop runs for i = 1, 2, 3, 4, 5 (5 iterations)
+- Option C: Loop runs for i = 5, 4, 3, 2, 1 (5 iterations)
+- Option D: Loop runs for i = 0, 1, 2, 3, 4 (5 iterations)
+- All options print exactly 5 asterisks
+
+
+Question 3:
+Answer: B) 1
+
+Explanation: The code counts the occurrences of 'e' or 'o' in the string "computer". 
+There is 1 'o' and 0 'e', so count = 1.
+
+
+Question 4:
+Answer: 
+A) 1
+1 2
+1 2 3
+
+Explanation: 
+- First iteration of outer loop (i=1): inner loop runs once (j=1), prints "1"
+- Second iteration of outer loop (i=2): inner loop runs twice (j=1,2), prints "1 2"
+- Third iteration of outer loop (i=3): inner loop runs three times (j=1,2,3), prints "1 2 3"
+
+
+Question 5:
+Answer: C) "ADG"
+
+Explanation: The loop starts with i = 0 and increments by 3 each time:
+- i = 0: result += "A" => result = "A"
+- i = 3: result += "D" => result = "AD"
+- i = 6: result += "G" => result = "ADG"
+- i = 9: 9 >= str.length() (9), so loop terminates
+- Final result = "ADG"
