@@ -1,0 +1,47 @@
+Question 1:
+Answer: B) [10, 15, 20, 40]
+
+Explanation:
+- The ArrayList starts with [10, 20, 30, 40]
+- numbers.add(1, 15) inserts 15 at index 1, shifting other elements right
+- Now the list is [10, 15, 20, 30, 40]
+- numbers.remove(3) removes the element
+
+____________________________________________________________________________________________________________
+Question 2:
+Answer: C) It replaces each word with its uppercase version
+
+Explanation:
+- The for loop iterates through each index of the ArrayList
+- For each index, it gets the current word, converts it to uppercase, and sets it back at the same index
+- The final list will be ["APPLE", "BANANA", "CHERRY"]
+- This is safe because we are not changing the size or order of the ArrayList during traversal
+
+____________________________________________________________________________________________________________
+Question 3:
+Answer: B) 2
+
+Explanation:
+- The list contains [3, 7, 2, 9, 5]
+- The loop checks each number to see if it's even (divisible by 2)
+- Only 2 is even, so sum = 0 + 2 = 2
+
+____________________________________________________________________________________________________________
+Question 4:
+Answer: A) removed = "Charlie", result = true
+
+Explanation:
+- names.remove(2) removes the element at index 2, which is "Charlie", and returns it
+- After the first removal, the list contains ["Alice", "Bob", "David"]
+- names.remove("Alice") removes "Alice" from the list and returns true because the element was found and removed
+- The final list contains ["Bob", "David"]
+
+____________________________________________________________________________________________________________
+Question 5:
+Answer: A) Sorts the list in ascending order
+
+Explanation:
+- This is a bubble sort implementation
+- It compares adjacent elements, and if they're out of order (current > next), it swaps them
+- After a swap, it resets the index to -1, which becomes 0 after the increment in the loop, starting again from the beginning
+- This continues until no more swaps are needed, resulting in an ascending order sort

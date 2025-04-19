@@ -10,7 +10,7 @@ Explanation: Let's trace through the execution:
 - Check condition: is 8 < 6? No, so the loop terminates
 - Final values: x = 8, y = 6
 
-
+____________________________________________________________________________________________________________
 Question 2:
 Answer: E) All of the above
 
@@ -21,14 +21,14 @@ Explanation:
 - Option D: Loop runs for i = 0, 1, 2, 3, 4 (5 iterations)
 - All options print exactly 5 asterisks
 
-
+____________________________________________________________________________________________________________
 Question 3:
 Answer: B) 1
 
 Explanation: The code counts the occurrences of 'e' or 'o' in the string "computer". 
 There is 1 'o' and 0 'e', so count = 1.
 
-
+____________________________________________________________________________________________________________
 Question 4:
 Answer: 
 A) 1
@@ -40,7 +40,7 @@ Explanation:
 - Second iteration of outer loop (i=2): inner loop runs twice (j=1,2), prints "1 2"
 - Third iteration of outer loop (i=3): inner loop runs three times (j=1,2,3), prints "1 2 3"
 
-
+____________________________________________________________________________________________________________
 Question 5:
 Answer: C) "ADG"
 

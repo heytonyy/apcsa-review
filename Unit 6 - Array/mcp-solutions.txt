@@ -6,7 +6,7 @@ Explanation:
 - arr[0] = 3, arr[2] = 5, arr[4] = 2
 - total = 3 + 5 + 2 = 10
 
-
+____________________________________________________________________________________________________________
 Question 2:
 Answer: D) 19
 
@@ -15,7 +15,7 @@ Explanation:
 - result = values[2] + values[4] - values[1]
 - result = 4 + 16 - 1 = 19
 
-
+____________________________________________________________________________________________________________
 Question 3:
 Answer: C) Reverses the order of elements in the array
 
@@ -26,21 +26,21 @@ Explanation:
 - This process continues until the middle of the array is reached
 - The result is that the array is reversed
 
-
+____________________________________________________________________________________________________________
 Question 4:
 Answer: D) 6
 
 Explanation:
-- The `modifyArray` method doubles each element in the array
+- The modifyArray method doubles each element in the array
 - The array starts as {1, 2, 3, 4, 5} and becomes {2, 4, 6, 8, 10}
 - nums[2] is now 6, so that's what's printed
 
-
+____________________________________________________________________________________________________________
 Question 5:
 Answer: C) 15
 
 Explanation:
 - This code uses an enhanced for loop which creates a copy of each array element
-- Changes to the variable `x` do not affect the original array
+- Changes to the variable x do not affect the original array
 - The array remains {5, 10, 15, 20, 25}
 - arr[2] is 15, so that's what's printed

@@ -1,0 +1,40 @@
+Question 1:
+Answer: C) B1 A2
+
+Explanation: The variable obj is of type A but references an object of type B. 
+When method1() is called, Java uses dynamic method binding to call the implementation in class B, resulting in "B1". 
+For method2(), since B does not override this method, the implementation from class A is used, resulting in "A2". 
+Note that method3() cannot be called through an A reference without casting, as it's not defined in class A.
+
+____________________________________________________________________________________________________________
+Question 2:
+Answer: B) Vehicle parameterized constructor  
+   Car type-model constructor
+
+Explanation: When new Car("Sedan", "Toyota") is called, it invokes the constructor Car(String type, String model). 
+This constructor calls super(type), which invokes Vehicle(String type), printing "Vehicle parameterized constructor".
+After returning from the superclass constructor, the Car constructor completes its execution, printing "Car type-model constructor".
+
+____________________________________________________________________________________________________________
+Question 3:
+Answer: B) A Dog object can call both makeSound() and eat().
+
+Explanation: The Dog class inherits the eat() method from the Animal class and overrides the makeSound() method with its own implementation.
+ A Dog object can call both makeSound() (using the Dog's implementation) and eat() (using Animal's implementation). 
+ The code compiles correctly, and an Animal reference can point to a Dog object due to inheritance.
+
+____________________________________________________________________________________________________________
+Question 4:
+Answer: B) 800.0
+
+Explanation: The variable p is of type Product but references a DiscountedProduct object. 
+When getPrice() is called, Java uses dynamic method binding to call the overridden implementation in DiscountedProduct. 
+This calculation is 1000.0 * (1 - 20.0 / 100), which equals 1000.0 * 0.8, or 800.0.
+
+____________________________________________________________________________________________________________
+Question 5:
+Answer: B) Area: 12.566370614359172
+
+Explanation: The display() method in Shape calls the area() method. 
+Due to dynamic method binding, even though s is a Shape reference, it calls the overridden area() method in the Circle class since s references a Circle object. 
+The calculation is Math.PI * 2.0 * 2.0, which equals approximately 12.566370614359172.
