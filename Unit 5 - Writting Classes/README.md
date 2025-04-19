@@ -1,10 +1,4 @@
-I notice you've shared information about Unit 5: Writing Classes from the AP Computer Science A curriculum. I'll create a comprehensive review guide for this unit based on the provided materials and following the structure of the Unit 1 guide you shared previously.
-
-Let me create a complete markdown file for Unit 5: Writing Classes.
-
 # Unit 5: Writing Classes
-
-## Comprehensive Review Guide
 
 ## Table of Contents
 
