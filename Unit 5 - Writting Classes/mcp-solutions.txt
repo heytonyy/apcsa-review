@@ -1,0 +1,45 @@
+Question 1:
+Answer: B) 0 1
+
+Explanation:
+- `c1` is incremented twice, so its count becomes 2
+- `c2` is incremented once, so its count becomes 1
+- `Counter.resetCounter(c1)` resets `c1`'s count to 0
+- `c2` is unaffected, so it remains 1
+- The output is `0 1`
+
+
+Question 2:
+Answer: C) 80
+
+Explanation:
+- The Rectangle is created with length 4 and width 5, so the initial area is 4 * 5 = 20
+- `resize(2)` multiplies both length and width by 2, making them 8 and 10 respectively
+- The new area is 8 * 10 = 80
+
+
+Question 3:
+Answer: B) 100, 101, 102
+
+Explanation:
+- `nextId` starts at 100
+- First student gets id 100, and `nextId` becomes 101
+- Second student gets id 101, and `nextId` becomes 102
+- Third student gets id 102, and `nextId` becomes 103
+
+
+Question 4:
+Answer: B) 3.0 x 3.0 x 3.0 has volume 27.0
+
+Explanation:
+- `box1` is created with all sides equal to 3, so volume is 3 * 3 * 3 = 27
+- When we print `box1`, its `toString()` method is called, which returns "3.0 x 3.0 x 3.0"
+
+
+Question 5:
+Answer: C) It is a static method that can access the private instance variables of Points.
+
+Explanation:
+- The `distance` method is static, as indicated by the `static` keyword
+- It can directly access the private instance variables (`x` and `y`) of the Point objects passed to it
+- This is allowed in Java because the method is in the same class as the private variables it's accessing
