@@ -459,8 +459,6 @@ System.out.print(s + " is null");
 - B) is null  
 - C) A NullPointerException is thrown  
 - D) Nothing is printed  **Answer: A) null is null**
-
-**Explanation:** In Java, concatenating null with a string implicitly converts null to the string "null". So, s + " is null" becomes "null is null". Note that this does NOT throw a NullPointerException because no method is being called on s.
 - E) " is null"  
 
 ## Sample Free Response Question
