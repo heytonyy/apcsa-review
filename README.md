@@ -23,7 +23,3 @@ Each unit directory contains:
 - README.md with explanations of key concepts
 - Java example files demonstrating core principles
 - Practice problems and solutions (in mcp-solutions.txt files)
-
-## Contributions
-
-This repository is maintained for educational purposes. Contributions, corrections, and additional examples are welcome.
